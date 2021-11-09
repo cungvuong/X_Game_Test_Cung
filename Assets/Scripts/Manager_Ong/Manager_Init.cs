@@ -239,9 +239,14 @@ public class Manager_Init : MonoBehaviour
         Load_Data_Level.instance.list.level[Load_Data_Level.instance.list.level_Current].lock_level = false;
         Load_Data_Level.instance.list.level_Current++;
         Save_Data.Save(Load_Data_Level.instance.list);
-        Debug.Log(Load_Data_Level.instance.list.level_Current + "done Load" );
         SceneManager.LoadScene(0);
         text_Level.text = "Level " + Load_Data_Level.instance.list.level_Current++.ToString();
+    }
+
+    public void Reset_Level()
+    {
+        SceneManager.LoadScene(0);
+        text_Level.text = "Level " + Load_Data_Level.instance.list.level_Current.ToString();
     }
 
     public void Menu_Ui()
