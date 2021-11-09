@@ -1,0 +1,55 @@
+{
+  "level": [
+    {
+      "id": 1,
+      "gold": 100,
+      "lock_level": false
+    },
+    {
+      "id": 2,
+      "gold": 200,
+      "lock_level": true
+    },
+    {
+      "id": 3,
+      "gold": 300,
+      "lock_level": true
+    },
+    {
+      "id": 4,
+      "gold": 400,
+      "lock_level": true
+    },
+    {
+      "id": 5,
+      "gold": 500,
+      "lock_level": true
+    },
+    {
+      "id": 6,
+      "gold": 600,
+      "lock_level": true
+    },
+    {
+      "id": 7,
+      "gold": 700,
+      "lock_level": true
+    },
+    {
+      "id": 8,
+      "gold": 800,
+      "lock_level": true
+    },
+    {
+      "id": 9,
+      "gold": 900,
+      "lock_level": true
+    },
+    {
+      "id": 10,
+      "gold": 1000,
+      "lock_level": true
+    }
+  ],
+  "level_Current": 1
+}
