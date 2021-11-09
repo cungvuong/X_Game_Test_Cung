@@ -27,6 +27,5 @@ public class Load_Level : MonoBehaviour
         Load_Data_Level.instance.list.level_Current = int.Parse(GetComponentInChildren<Text>().text);
         Save_Data.Save(Load_Data_Level.instance.list);
         SceneManager.LoadScene(0);
-        text_Level.text = "Level " + Load_Data_Level.instance.list.level_Current.ToString();
     }
 }
